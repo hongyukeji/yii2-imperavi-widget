@@ -1,0 +1,50 @@
+{
+    "name": "hongyukeji/yii2-imperavi-widget",
+    "description": "The imperavi redactor widget for Yii 2 framework.",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii",
+        "extension",
+        "imperavi",
+        "widget",
+        "yii2",
+        "yii 2",
+        "redactor",
+        "wysiwyg"
+    ],
+    "homepage": "https://github.com/hongyukeji/yii2-imperavi-widget",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Shadow",
+            "email": "admin@hongyuvip.com",
+            "homepage": "https://github.com/hongyukeji",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hongyukeji/yii2-imperavi-widget/issues?state=open",
+        "source": "https://github.com/hongyukeji/yii2-imperavi-widget"
+    },
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "mikey179/vfsStream": "~1"
+    },
+    "autoload": {
+        "psr-4": {
+            "hongyukeji\\imperavi\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
