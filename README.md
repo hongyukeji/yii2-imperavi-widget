@@ -42,7 +42,7 @@ Once the extension is installed, simply use it in your code:
 echo \hongyukeji\imperavi\Widget::widget([
     'name' => 'redactor',
     'settings' => [
-        'lang' => 'ru',
+        'lang' => 'zh_cn',
         'minHeight' => 200,
         'plugins' => [
             'clips',
@@ -59,7 +59,7 @@ use hongyukeji\imperavi\Widget;
 
 echo $form->field($model, 'content')->widget(Widget::className(), [
     'settings' => [
-        'lang' => 'ru',
+        'lang' => 'zh_cn',
         'minHeight' => 200,
         'plugins' => [
             'clips',
@@ -75,7 +75,7 @@ echo $form->field($model, 'content')->widget(Widget::className(), [
 echo \hongyukeji\imperavi\Widget::widget([
     'selector' => '#my-textarea-id',
     'settings' => [
-        'lang' => 'ru',
+        'lang' => 'zh_cn',
         'minHeight' => 200,
         'plugins' => [
             'clips',
@@ -105,7 +105,7 @@ public function actions()
 echo \hongyukeji\imperavi\Widget::widget([
     'selector' => '#my-textarea-id',
     'settings' => [
-        'lang' => 'ru',
+        'lang' => 'zh_cn',
         'minHeight' => 200,
         'imageManagerJson' => Url::to(['/default/images-get']),
         'plugins' => [
@@ -135,7 +135,7 @@ public function actions()
 echo \hongyukeji\imperavi\Widget::widget([
     'selector' => '#my-textarea-id',
     'settings' => [
-        'lang' => 'ru',
+        'lang' => 'zh_cn',
         'minHeight' => 200,
         'fileManagerJson' => Url::to(['/default/files-get']),
         'plugins' => [
@@ -164,7 +164,7 @@ public function actions()
 echo \hongyukeji\imperavi\Widget::widget([
     'selector' => '#my-textarea-id',
     'settings' => [
-        'lang' => 'ru',
+        'lang' => 'zh_cn',
         'minHeight' => 200,
         'imageUpload' => Url::to(['/default/image-upload'])
     ]
@@ -190,7 +190,7 @@ public function actions()
 echo \hongyukeji\imperavi\Widget::widget([
     'selector' => '#my-textarea-id',
     'settings' => [
-        'lang' => 'ru',
+        'lang' => 'zh_cn',
         'minHeight' => 200,
         'fileUpload' => Url::to(['/default/file-upload'])
     ]
@@ -203,7 +203,7 @@ echo \hongyukeji\imperavi\Widget::widget([
 echo \hongyukeji\imperavi\Widget::widget([
     'selector' => '#my-textarea-id',
     'settings' => [
-        'lang' => 'ru',
+        'lang' => 'zh_cn',
         'minHeight' => 200,
         'plugins' => [
             'clips',
